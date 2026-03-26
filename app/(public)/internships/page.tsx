@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, Variants } from "framer-motion";
+import { motion ,Variants} from "framer-motion";
 import Image from "next/image";
 import { 
   IconBriefcase,
@@ -8,10 +8,7 @@ import {
   IconUsers,
   IconAward
 } from "@tabler/icons-react";
-import InternshipCard from "@/components/internships/InternshipCard";
-
-// IMPORT YOUR NEW DATA FILE HERE
-import { internshipsData } from "@/lib/internshipsData"; 
+import InternshipCard, { InternshipData } from "@/components/internships/InternshipCard";
 
 export default function InternshipsPage() {
   const containerVariants: Variants = {
@@ -26,6 +23,36 @@ export default function InternshipsPage() {
     hidden: { opacity: 0, y: 20 },
     show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
   };
+
+  const internships: InternshipData[] = [
+    {
+      id: 1,
+      domain: "Web Development",
+      title: "Frontend Engineering Intern",
+      duration: "3 Months",
+      type: "Free / Paid Tracks",
+      skills: ["React", "Next.js", "Tailwind CSS"],
+      description: "Build scalable web applications and learn modern frontend architecture by working on live, production-ready projects.",
+    },
+    {
+      id: 2,
+      domain: "Artificial Intelligence",
+      title: "Machine Learning & AI Intern",
+      duration: "3 Months",
+      type: "Free / Paid Tracks",
+      skills: ["Python", "TensorFlow", "Pandas"],
+      description: "Work on real-world datasets to build, train, and deploy predictive models, computer vision systems, and AI agents.",
+    },
+    {
+      id: 3,
+      domain: "Cloud Computing",
+      title: "Cloud & DevOps Intern",
+      duration: "3 Months",
+      type: "Free / Paid Tracks",
+      skills: ["AWS", "Docker", "CI/CD"],
+      description: "Learn to design, deploy, and manage scalable cloud infrastructure while automating development workflows.",
+    }
+  ];
 
   const features = [
     { icon: <IconBriefcase size={28} />, title: "Project-based", desc: "Work on real industry use-cases." },
@@ -108,8 +135,7 @@ export default function InternshipsPage() {
             viewport={{ once: true, margin: "-50px" }}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
           >
-            {/* Map over the imported internshipsData array */}
-            {internshipsData.map((internship) => (
+            {internships.map((internship) => (
               <InternshipCard key={internship.id} internship={internship} />
             ))}
           </motion.div>
@@ -151,7 +177,7 @@ export default function InternshipsPage() {
           </div>
         </motion.section>
 
-        {/* Certificate Display */}
+        {/* Certificate Display (Updated with Image) */}
         <motion.section 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
