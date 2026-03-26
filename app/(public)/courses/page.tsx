@@ -2,6 +2,7 @@
 
 import { motion, Variants } from "framer-motion";
 
+<<<<<<< HEAD
 export default function CoursesPage() {
   const courses = [
     {
@@ -33,7 +34,13 @@ export default function CoursesPage() {
         "Discover how modern AI chatbots go beyond simple responses using the RAG model. This session introduces the architecture behind intelligent conversational systems that retrieve information and generate accurate answers. Participants will gain practical insights into building next-generation AI chatbots.",
     },
   ];
+=======
+// IMPORT YOUR NEW DATA FILE HERE
+import { coursesData } from "@/lib/coursesData";
+>>>>>>> b325760 (refactored the pages and seperated data files for all the pages, fix some minor changes)
 
+export default function CoursesPage() {
+  
   // Framer motion variants for staggered animations
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -72,7 +79,8 @@ export default function CoursesPage() {
           animate="show"
           className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6"
         >
-          {courses.map((course, index) => (
+          {/* Map over the newly imported coursesData array */}
+          {coursesData.map((course, index) => (
             <motion.div
               key={index}
               variants={cardVariants}
