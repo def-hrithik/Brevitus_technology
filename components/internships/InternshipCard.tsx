@@ -11,6 +11,7 @@ export interface InternshipData {
   type: string;
   skills: string[];
   description: string;
+  pdfLink?: string;
 }
 
 const itemVariants: Variants = {
