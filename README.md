@@ -28,20 +28,16 @@ The platform allows users to explore current offerings, view featured past proje
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page Screenshot](<img width="1899" height="906" alt="image" src="https://github.com/user-attachments/assets/ba8d466c-a872-4ac3-b644-093addb0bc64" />
-)
+![Home Page Screenshot](https://github.com/user-attachments/assets/ba8d466c-a872-4ac3-b644-093addb0bc64)
 
 ### Programs Section
-![Courses Page Screenshot](<img width="1750" height="904" alt="image" src="https://github.com/user-attachments/assets/ff6fbd2c-8789-454c-bc3e-e1356cf3e144" />
-)
+![Courses Page Screenshot](https://github.com/user-attachments/assets/ff6fbd2c-8789-454c-bc3e-e1356cf3e144)
 
 ### Internships Portal
-![Internships Page Screenshot](<img width="1656" height="893" alt="image" src="https://github.com/user-attachments/assets/f19491d7-9a10-456e-9d30-cad8e2e01b4a" />
-)
+![Internships Page Screenshot](https://github.com/user-attachments/assets/f19491d7-9a10-456e-9d30-cad8e2e01b4a)
 
 ### Events Dashboard
-![Events Page Screenshot](<img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/fed3b786-c077-4a86-a592-5e551dd41e0a" />
-)
+![Events Page Screenshot](https://github.com/user-attachments/assets/fed3b786-c077-4a86-a592-5e551dd41e0a)
 
 ---
 
