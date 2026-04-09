@@ -84,7 +84,7 @@ Make sure you have Node.js and npm installed on your machine.
 5. Open http://localhost:3000 with your browser to see the result.
 
 ### 👨‍💻Creators
-    This freelance project was designed and developed by:
+    This project was designed and developed by:
 
     Hrithik Singh & Karan N. Katakdhond
 
