@@ -1,6 +1,8 @@
 <div align="center">
-  <h1>🚀 Brevitus Technology</h1>
-  <p>A modern, high-performance platform for tech education, internships, and events.</p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?font=Righteous&weight=700&size=45&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=80&lines=Brevitus+Technology" alt="Typing SVG" />
+  </a>
+  <p><b>A modern, high-performance platform for tech education, internships, and events.</b></p>
 </div>
 
 ---
@@ -25,19 +27,21 @@ The platform allows users to explore current offerings, view featured past proje
 
 ## 📸 Screenshots
 
-*(Replace the placeholder URLs with actual image links of your project)*
-
 ### Home Page
-![Home Page Screenshot](https://via.placeholder.com/1000x500?text=Home+Page+Screenshot)
+![Home Page Screenshot](<img width="1899" height="906" alt="image" src="https://github.com/user-attachments/assets/ba8d466c-a872-4ac3-b644-093addb0bc64" />
+)
 
-### Courses Section
-![Courses Page Screenshot](https://via.placeholder.com/1000x500?text=Courses+Page+Screenshot)
+### Programs Section
+![Courses Page Screenshot](<img width="1750" height="904" alt="image" src="https://github.com/user-attachments/assets/ff6fbd2c-8789-454c-bc3e-e1356cf3e144" />
+)
 
 ### Internships Portal
-![Internships Page Screenshot](https://via.placeholder.com/1000x500?text=Internships+Page+Screenshot)
+![Internships Page Screenshot](<img width="1656" height="893" alt="image" src="https://github.com/user-attachments/assets/f19491d7-9a10-456e-9d30-cad8e2e01b4a" />
+)
 
 ### Events Dashboard
-![Events Page Screenshot](https://via.placeholder.com/1000x500?text=Events+Page+Screenshot)
+![Events Page Screenshot](<img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/fed3b786-c077-4a86-a592-5e551dd41e0a" />
+)
 
 ---
 
